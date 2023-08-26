@@ -7,12 +7,14 @@
 .revealio{
     position: relative;
     transform:  translateX(100px);
-    opacity:0;
+    display: none;
+    opacity: 0;
     transition: all 1s ease;
 }
 .revealio.active{
     transform:  translateX(0px);
     opacity: 1;
+    display: block;
 }
 .reveal{
     position: relative;
@@ -30,6 +32,7 @@ body {
 .cd-head{
     background-color: black;
     padding: 20px 0px 0px 20px;
+    width: 100%;
 }
 .head {
     color: gold;
@@ -99,6 +102,7 @@ body {
     display: flex;
     padding: 100px 100px 20px 100px;
     background-color: #FF9F1C;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -429,6 +433,7 @@ footer .copyright .social-links .x:hover{
 @media screen and (max-width: 414px){
     .cd-head{
         padding: 10px 0px 0px 10px;
+        width: 100%;
     }
     .head {
         font-size: 25px;
@@ -438,13 +443,12 @@ footer .copyright .social-links .x:hover{
     }
     
     .landing-sc .container {
-        width: 100%;
         align-self: center;
     }
     
     .logo img {
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
         margin-bottom: 20px;
     }
     
