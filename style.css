@@ -596,10 +596,10 @@ footer .copyright .social-links .x:hover{
         padding: 10px;
     }
     footer .container{
-        flex-direction: column;
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        border-bottom: 1px solid rgb(2, 2, 80);
     }
     footer .container .cards{
         padding: 10px;
